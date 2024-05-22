@@ -1,0 +1,7 @@
+1. Zaktualizuj dane klienta
+Załóżmy, że klient o id=1 zmienił numer telefonu na '999-999-999'
+```
+UPDATE klienci
+SET telefon = 999999999
+WHERE id=1;
+```
